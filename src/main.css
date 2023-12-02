@@ -1,0 +1,353 @@
+.prod-container {
+  background-color: white;
+}
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product {
+  width: 30%;
+  min-height: 30rem;
+  max-height: auto;
+  margin-bottom: 4rem;
+  border: 1px solid white;
+  box-shadow: 0 0 1rem black;
+  background-color: white;
+}
+.product:hover {
+  transition: 500ms;
+  border: 1px solid black;
+  box-shadow: 0 0 1rem palevioletred;
+}
+.prod-img {
+  object-fit: contain;
+  height: 300px;
+  width: 200px;
+}
+button {
+  border-radius: 2rem;
+  width: 7rem;
+  height: 2.5rem;
+  background-color: pink;
+  border: 1.5px solid black;
+  font-weight: 500;
+}
+button:hover {
+  transition: 300ms;
+  background-color: palevioletred;
+  color: white;
+}
+.prod-banner {
+  height: 70vh;
+  width: 100%;
+  background-image: url(./Media/bannner3.webp);
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  background-color: pink;
+}
+.navbar-main {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 12vh;
+  max-height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 6rem;
+  border-bottom: 1.2px solid;
+  z-index: 1;
+  border-bottom: 2px solid palevioletred;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar-rotate {
+  transform: rotate(90deg);
+  line-height: 1.4;
+}
+.nav-item {
+  margin-left: 1rem;
+  color: black;
+  font-size: large;
+  font-weight: 500;
+}
+.logo {
+  height: 90px;
+  width: 150px;
+}
+.cart {
+  height: 38px;
+  width: 38px;
+}
+.cart-amount {
+  text-align: center;
+  height: 1.65rem;
+  width: 1.65rem;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  background-color: pink;
+  color: black;
+}
+.pos-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-container {
+  height: auto;
+  width: 100%;
+  margin-top: 6rem;
+}
+.carousel-item img {
+  height: 420px;
+}
+.home-pg {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./Media/home-bg.jpg);
+  background-size: cover;
+}
+.button {
+  display: flex;
+  background-color: #409426;
+  justify-content: center;
+  width: 10.5rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: x-large;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  padding-top: 0.3rem;
+  color: black;
+}
+.button:hover {
+  transition: 400ms;
+  background-color: #60c442;
+}
+.enter img {
+  margin-left: 0.2rem;
+  height: 2rem;
+  width: 2rem;
+  padding-bottom: 0.2rem;
+}
+.td-none {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.info {
+  position: fixed;
+  top: 40%;
+  left: 10%;
+}
+.top {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.link {
+  text-decoration: none;
+  color: palevioletred;
+}
+.bi {
+  margin-bottom: 0.5em;
+}
+.titles {
+  margin: 2rem 0 0 0;
+}
+.titles h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.cart-container-main {
+  padding: 0 2rem;
+}
+.cart-heading {
+  margin-top: 1rem;
+  background-color: pink;
+}
+.cart-item,
+.cart-container .titles {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  column-gap: 0.4rem;
+}
+.cart-item {
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+.cart-img {
+  object-fit: contain;
+  height: 250px;
+  width: 150px;
+}
+.cart-product-added {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-product-added,
+h5 {
+  width: 100%;
+}
+.cart-product {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-product h5 {
+  margin-bottom: 1rem;
+}
+.cart-quantity-change {
+  width: 8rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: pink;
+}
+.cart-quantity-change button {
+  width: 3.5rem;
+  margin: 0 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: pink;
+}
+.cart-quantity-change button:hover {
+  transition: 400ms;
+  border-radius: 0;
+  background-color: palevioletred;
+}
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+.cart-summary button {
+  margin: 1rem 0 0 3rem;
+}
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.checkout button {
+  margin: 0 0 1rem 0;
+}
+.checkout-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: palevioletred;
+}
+.checkout-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid white;
+  box-shadow: 0 0 1.5rem black;
+  border-radius: 4rem;
+  background-color: pink;
+}
+.checkout-link {
+  color: red;
+  margin-top: 1.2rem;
+}
+.checkout-div {
+  width: 100%;
+}
+.bg-footer {
+  background-color: pink;
+  border-top: 1.5px solid black;
+  padding-top: 2rem;
+}
+.bg-footer,
+a {
+  color: black;
+  text-decoration: none;
+}
+.d-none {
+  display: none;
+}
+.payed {
+  height: 50vh;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid white;
+  box-shadow: 0 0 1.5rem black;
+  border-radius: 4rem;
+  background-color: white;
+}
+.payed .link {
+  text-decoration: underline;
+}
+.height {
+  height: 100vh;
+  background-color: pink;
+}
+.height > a {
+  color: red;
+}
+.height > a:hover {
+  color: blue;
+}
+.error-pg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-loading {
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  height: 50vh;
+  justify-content: space-around;
+}
+.ball {
+  display: flex;
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+}
+.form-container {
+  background-color: rgb(199, 75, 117);
+}
+textarea {
+  resize: none;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.5;
+  }
+  to {
+    transform: translate3d(0, 100px, 0);
+    opacity: 1;
+  }
+}
